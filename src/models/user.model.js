@@ -1,7 +1,7 @@
 import mongoose, { Schema } from 'mongoose';
 import jwt from 'jsonwebtoken';
 import bycrypt from 'bcryptjs';
-import { use } from 'express/lib/application';
+//import { use } from 'express/lib/application';
 
 const userSchema = new mongoose.Schema(
   {
